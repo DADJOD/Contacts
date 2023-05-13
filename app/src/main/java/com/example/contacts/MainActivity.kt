@@ -5,6 +5,7 @@ import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
 import android.provider.ContactsContract
+import android.view.Menu
 import android.widget.ListView
 import android.widget.SimpleCursorAdapter
 import android.widget.Toast
@@ -77,6 +78,27 @@ class MainActivity : AppCompatActivity() {
     companion object {
         const val PERMISSION_REQUEST_READ_CONTACTS = 222
     }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //    private fun showContactsWrapper() {
 //

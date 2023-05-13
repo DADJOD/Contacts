@@ -6,4 +6,9 @@
     </style>
 
     <style name="Theme.Contacts" parent="Base.Theme.Contacts" />
+
+    <style name="Theme.Contacts.ActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+    </style>
 </resources>
